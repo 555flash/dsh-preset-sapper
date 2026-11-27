@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+*.log
+
+# 事实图是运行时战役数据，不进仓库
+.sapper/
+commander-state.md

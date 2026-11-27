@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Sapper legion",
+    "description": "An autonomous pentest legion built on sapper-v2 doctrine: the fact graph (.sapper/) is read and written by native DSH tools, the commander dispatches but never strikes, and uni-mcp's five sources serve as passive sensors.",
+    "detail": "docs/DETAIL.md"
+  }
+}

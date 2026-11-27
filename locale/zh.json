@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "工兵军团 Sapper",
+    "description": "sapper-v2 原生条令的自治渗透军团：事实图（.sapper/）由 DSH 原生工具读写，commander 只调度不亲打，general/scout/soldier 分级派单，uni-mcp 五源做被动侦察。",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "dsh-preset-sapper",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "description": "工兵军团 Sapper — sapper-v2 原生条令的自治渗透军团模式：事实图（.sapper/）由 DSH 原生工具读写且只在 sapper 会话可见，每步自动把紧凑看板注入系统提示，commander 只调度不亲打，四层编制 + 模型分级，uni-mcp 五源做被动侦察。",
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
