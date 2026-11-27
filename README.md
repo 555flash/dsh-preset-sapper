@@ -88,6 +88,15 @@
 
 ## 五、安装位置与卸载
 
+### 从本仓库安装
+
+```sh
+git clone https://github.com/555flash/dsh-preset-sapper ~/.dsh/bundles/dsh-preset-sapper
+```
+
+然后在 DSH 里用 `plugin_manager` → `install_bundle`，target 填克隆后的**绝对路径**
+（例如 `/Users/<you>/.dsh/bundles/dsh-preset-sapper`）。装完在模式菜单选「工兵军团 Sapper」开新会话。
+
 - bundle：`~/.dsh/bundles/dsh-preset-sapper`
 - profile 依赖：`~/.dsh/profiles/desktop/package.json` → `"dsh-preset-sapper": "link:…"`（由 `plugin_manager install_bundle` 写入）
 - 卸载：`plugin_manager` → `remove_bundle` target `dsh-preset-sapper`（会同时移除 Host 工具与 preset 行）。
